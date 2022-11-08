@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T08:51:45Z" name="Default suite" finished-at="2022-11-04T08:51:53Z" duration-ms="7976">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T08:51:45Z" name="edge" finished-at="2022-11-04T08:51:45Z" duration-ms="69">
+      <class name="selenium.ParametersTestng">
+        <test-method signature="lanchbrowser(java.lang.String)[pri:0, instance:selenium.ParametersTestng@2df3b89c]" started-at="2022-11-04T08:51:45Z" name="lanchbrowser" finished-at="2022-11-04T08:51:45Z" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchbrowser -->
+      </class> <!-- selenium.ParametersTestng -->
+    </test> <!-- edge -->
+    <test started-at="2022-11-04T08:51:45Z" name="chrome" finished-at="2022-11-04T08:51:53Z" duration-ms="7731">
+      <class name="selenium.ParametersTestng">
+        <test-method signature="lanchbrowser(java.lang.String)[pri:0, instance:selenium.ParametersTestng@f79e]" started-at="2022-11-04T08:51:45Z" name="lanchbrowser" finished-at="2022-11-04T08:51:53Z" duration-ms="7726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchbrowser -->
+      </class> <!-- selenium.ParametersTestng -->
+    </test> <!-- chrome -->
+  </suite> <!-- Default suite -->
+</testng-results>
